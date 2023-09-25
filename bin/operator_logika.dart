@@ -1,0 +1,18 @@
+void main(List<String> args) {
+  var nilaiAkhir = 90;
+  var nilaiAbsen = 50;
+
+  var apakahNilaiAkhirBagus = nilaiAkhir >= 80;
+  var apakahNilaiAbsenBagus = nilaiAbsen >= 80;
+
+  print(apakahNilaiAkhirBagus);
+  print(apakahNilaiAbsenBagus);
+
+  // var lulus = apakahNilaiAkhirBagus && apakahNilaiAbsenBagus;
+
+  var lulus = apakahNilaiAkhirBagus || apakahNilaiAbsenBagus;
+  print(lulus);
+
+  print(!true);
+  print(!false);
+}
